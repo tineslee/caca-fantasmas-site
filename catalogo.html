@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo de Livros — Caça Fantasmas Brasil</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 2.5rem;
+      margin-bottom: 40px;
+      color: #fff;
+    }
+
+    .catalogo {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .card {
+      background-color: #1c1c1c;
+      border-radius: 10px;
+      padding: 20px;
+      width: 280px;
+      box-shadow: 0 0 10px rgba(255,255,255,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .card h2 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.4rem;
+      margin-bottom: 10px;
+      color: #9e00ff;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+      line-height: 1.4;
+      margin-bottom: 15px;
+      text-align: justify;
+    }
+
+    .card a {
+      display: inline-block;
+      padding: 8px 16px;
+      background-color: #9e00ff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 0.9rem;
+    }
+
+    .card a:hover {
+      background-color: #c000ff;
+    }
+
+    .back {
+      margin-top: 50px;
+    }
+
+    .back a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #1c1c1c;
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .back a:hover {
+      background-color: #9e00ff;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Catálogo de Livros — Rosa Maria Jaques</h1>
+
+  <div class="catalogo">
+
+    <div class="card">
+      <img src="../img/livro1.jpg" alt="Caça-Fantasmas Brasileiros">
+      <h2>Caça-Fantasmas Brasileiros</h2>
+      <p>Casos reais de assombrações investigados por Rosa e João desde 1996, com respeito ao sobrenatural.</p>
+      <a href="resumo1.html">Ler mais</a>
+    </div>
+
+    <div class="card">
+      <img src="../img/livro2.jpg" alt="Espíritos e Fantasmas">
+      <h2>Espíritos e Fantasmas</h2>
+      <p>Diferenças entre espíritos, fantasmas e assombrações. Reflexões sobre morte, culpa e destino.</p>
+      <a href="resumo2.html">Ler mais</a>
+    </div>
+
+    <div class="card">
+      <img src="../img/livro3.jpeg" alt="Paranormalidade: O Elo Perdido">
+      <h2>Paranormalidade: O Elo Perdido</h2>
+      <p>Todos têm sensibilidade espiritual. Rosa propõe uma ponte entre o normal e o paranormal.</p>
+      <a href="resumo3.html">Ler mais</a>
+    </div>
+
+    <div class="card">
+      <img src="../img/livro4.jpg" alt="Tempestades Internas">
+      <h2>Tempestades Internas</h2>
+      <p>Histórias reais vividas por Rosa ao longo da sua jornada.</p>
+      <a href="resumo4.html">Ler mais</a>
+    </div>
+
+    <div class="card">
+      <img src="../img/livro5.jpg" alt="Consciência e Intuição">
+      <h2>Consciência e Intuição</h2>
+      <p>Dicas, percepções e reflexões vividas por Rosa com sua vidência ativa e telepatia.</p>
+      <a href="resumo5.html">Ler mais</a>
+    </div>
+
+    <div class="card">
+      <img src="../img/livro6.jpg" alt="Vidas em Pedaços">
+      <h2>Vidas em Pedaços</h2>
+      <p>Poemas que foram inspirados pelas vivências de Rosa através de seus atendimentos e encontros espirituais.</p>
+      <a href="resumo6.html">Ler mais</a>
+    </div>
+
+  </div>
+
+  <div class="back">
+    <a href="../index.html">Voltar ao início</a>
+  </div>
+
+</body>
+</html>
